@@ -5,7 +5,7 @@
   <groupId>io.github.sfeir-open-source</groupId>
   <artifactId>sonar-clover-plugin</artifactId>
   <packaging>sonar-plugin</packaging>
-  <version>4.2-SNAPSHOT</version>
+  <version>4.1.1</version>
 
   <name>Sonar Clover Plugin</name>
   <description>Get code coverage with http://openclover.org/</description>
@@ -59,6 +59,13 @@
       <artifactId>sonar-plugin-api</artifactId>
       <version>${sonar.version}</version>
       <scope>provided</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.codehaus.woodstox/woodstox-core-lgpl -->
+    <dependency>
+      <groupId>org.codehaus.woodstox</groupId>
+      <artifactId>woodstox-core-lgpl</artifactId>
+      <version>4.4.1</version>
     </dependency>
 
     <dependency>
